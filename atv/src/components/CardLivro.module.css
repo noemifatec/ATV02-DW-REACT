@@ -1,0 +1,44 @@
+/* src/components/CardLivro.module.css */
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efeito visual ao passar o mouse (Feedback de clique para o usuário) */
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: #0070f3; /* Cor de destaque (ex: azul do Next.js) */
+}
+
+.card h3 {
+  margin: 0 0 8px 0;
+  color: #222222;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 4px 0;
+  color: #555555;
+  font-size: 0.95rem;
+}
+
+/* Estilização da tag com o grupo do livro (ex: Evangelhos, Profetas Maiores) */
+.Grupo {
+  display: inline-block;
+  background-color: #e1f5fe;
+  color: #0288d1;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 8px;
+}

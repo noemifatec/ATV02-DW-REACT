@@ -1,0 +1,111 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.tituloGlobal {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.conteudo {
+  display: flex;
+  gap: 30px;
+}
+
+/* Lista na esquerda ocupando 40% do espaço */
+.lista {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/* Detalhes na direita fixo ocupando 60% */
+.detalhes {
+  flex: 6;
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+}
+
+.painelDetalhe {
+  background-color: #f9f9f9;
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.nomePokemon {
+  text-transform: uppercase;
+  color: #222;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.fotoPokemon {
+  width: 150px;
+  height: 150px;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+
+.infoDados {
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
+
+.statusContainer {
+  text-align: left;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.statusContainer h3 {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #666;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.statusContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.statusContainer li {
+  padding: 6px 0;
+  border-bottom: 1px solid #fafafa;
+  text-transform: capitalize;
+}
+
+.nomeStat {
+  color: #777;
+  font-weight: bold;
+}
+
+.painelVazio {
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  color: #777;
+}
+
+.carregando {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
