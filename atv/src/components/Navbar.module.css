@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ef5350; /* Vermelho Pokémon */
+  padding: 10px 40px;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.links li {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.links li:hover {
+  text-decoration: underline;
+}

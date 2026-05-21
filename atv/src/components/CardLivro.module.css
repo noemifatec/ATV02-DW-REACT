@@ -11,11 +11,11 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Efeito visual ao passar o mouse (Feedback de clique para o usuário) */
+
 .card:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-color: #0070f3; /* Cor de destaque (ex: azul do Next.js) */
+  border-color: #0070f3; 
 }
 
 .card h3 {
@@ -30,7 +30,7 @@
   font-size: 0.95rem;
 }
 
-/* Estilização da tag com o grupo do livro (ex: Evangelhos, Profetas Maiores) */
+
 .Grupo {
   display: inline-block;
   background-color: #e1f5fe;

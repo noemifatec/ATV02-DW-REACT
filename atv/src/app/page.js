@@ -38,7 +38,7 @@ export default function Home() {
 
   return (
     <main className={styles.container}>
-      <h1 className={styles.tituloGlobal}>PokéDex API — Atividade 02</h1>
+      
 
       <div className={styles.conteudo}>
         {/* Lado Esquerdo: Lista de Registros */}
